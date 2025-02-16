@@ -1,0 +1,27 @@
+//Ejercicio 4.13 libro C 
+//Ferdynand Monroy Febrero 2025
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    double kilometros, litros, totalKilometros = 0, totalLitros = 0;
+
+    while (true) {
+        cout << "Escriba los kilometros usados (-1 para salir): ";
+        cin >> kilometros;
+        if (kilometros == -1) break;
+
+        cout << "Escriba los litros: ";
+        cin >> litros;
+
+        double kpl = kilometros / litros;
+        totalKilometros += kilometros;
+        totalLitros += litros;
+
+        cout << "KPL en este reabastecimiento: " << kpl << endl;
+        cout << "Total KPL: " << totalKilometros / totalLitros << endl;
+    }
+
+    return 0;
+}
