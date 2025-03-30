@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1743218732 source:c:\users\ferit\documents\progra1git\proyectobibliotecacalculadora\controlpartidosfootball\equipos.cpp
+	"equipos.h"
+	<iostream>
+	<iomanip>
+
+1743217866 c:\users\ferit\documents\progra1git\proyectobibliotecacalculadora\controlpartidosfootball\equipos.h
+	<string>
+
+1743219043 source:c:\users\ferit\documents\progra1git\proyectobibliotecacalculadora\controlpartidosfootball\main.cpp
+	<iostream>
+	"Torneo.h"
+
+1743219551 c:\users\ferit\documents\progra1git\proyectobibliotecacalculadora\controlpartidosfootball\torneo.h
+	"Equipos.h"
+	<vector>
+
+1743220047 source:c:\users\ferit\documents\progra1git\proyectobibliotecacalculadora\controlpartidosfootball\generargoles.cpp
+	"generargoles.h"
+	<cstdlib>
+
+1743219881 c:\users\ferit\documents\progra1git\proyectobibliotecacalculadora\controlpartidosfootball\generargoles.h
+
